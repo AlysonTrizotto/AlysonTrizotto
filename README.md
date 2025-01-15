@@ -21,3 +21,7 @@ Sou desenvolvedor com experiência em [Back-end e RPA]. Adoro trabalhar com [PHP
 
 ## Contato
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alyson-trizotto)
+📱 Entre em contato comigo pelo WhatsApp:  
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/+5541987438065?text=Olá,%20gostaria%20de%20entrar%20em%20contato!)
+
+
