@@ -1,7 +1,7 @@
 # Olá, sou Alyson Trizotto 👋
 
 ## Sobre mim
-Sou desenvolvedor com experiência em [Back-end e RPA]. Adoro trabalhar com [PHP, JavaScript, Python, ShellScript, C#], (estudando [Flutter e Ract]),  Já trabalhei em projetos como: Omnichannel, Microserviço bancário, telemetria e criar soluções inovadoras!
+Sou desenvolvedor com experiência em [Back-end e RPA]. Adoro trabalhar com [PHP, JavaScript, Python, ShellScript, C#], (estudando [Flutter e Ract]),  Já trabalhei em projetos como: Omnichannel, Microserviço bancário, telemetria e gosto muito de criar soluções inovadoras!
 
 ---
 
@@ -12,17 +12,12 @@ Sou desenvolvedor com experiência em [Back-end e RPA]. Adoro trabalhar com [PHP
 
 ---
 
-## Projetos em Destaque
-- [**Projeto 1**](https://github.com/AlysonTrizotto/projeto1): Breve descrição do projeto.
-- [**Projeto 2**](https://github.com/AlysonTrizotto/projeto2): Breve descrição do projeto.
-
----
-
 ## Tecnologias
+![Badge de PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 ---
 
 ## Contato
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/seu-perfil)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alyson-trizotto)
