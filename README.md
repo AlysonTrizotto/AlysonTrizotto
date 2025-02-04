@@ -3,6 +3,7 @@
 ## Sobre mim
 Sou desenvolvedor com experiência em [Back-end e RPA]. Adoro trabalhar com [PHP, JavaScript, Python, ShellScript, C#], (estudando [Flutter e Ract]),  Já trabalhei em projetos como: Omnichannel, Microserviço bancário, telemetria e gosto muito de criar soluções inovadoras!
 
+
 ---
 
 ## Estatísticas do GitHub
