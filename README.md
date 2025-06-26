@@ -16,7 +16,7 @@ Sou Desenvolvedor Pleno com sólida experiência em back-end, especialista em PH
 
 ## 🚀 Principais Skills
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=php,laravel,mysql,postgres,oracle,js,react,docker,git,github,bash,linux"/>
+  <img src="https://skillicons.dev/icons?i=php,laravel,mysql,postgres,oracle,js,docker,git,github,bash,linux"/>
 </p>
 
 ---
