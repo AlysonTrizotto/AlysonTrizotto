@@ -26,4 +26,5 @@ jobs:
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add stats.svg langs.svg
           git commit -m 'Atualiza estatísticas privadas do GitHub' || echo "Nada para commitar"
+          git pull --rebase
           git push
