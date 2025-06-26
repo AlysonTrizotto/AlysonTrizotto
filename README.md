@@ -1,7 +1,7 @@
 # Olá, sou Alyson Trizotto 👋
 
 ## Sobre mim
-Sou desenvolvedor com experiência em **Back-end e RPA**. Adoro trabalhar com **PHP, JavaScript, Python, ShellScript, C#** e estou estudando **Flutter e React**. Já atuei em projetos como Omnichannel, Microserviço bancário, telemetria e gosto muito de criar soluções inovadoras!
+Sou desenvolvedor com experiência em **Back-end e RPA**. Adoro trabalhar com **PHP, JavaScript, Python, IA** e estou estudando **Flutter e React**. Já atuei em projetos como Omnichannel, Microserviço bancário, telemetria e gosto muito de criar soluções inovadoras!
 
 ---
 
