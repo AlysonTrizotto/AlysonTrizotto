@@ -17,12 +17,8 @@ jobs:
 
       - name: Baixar estatísticas privadas
         run: |
-          curl -H "Authorization: token ${{ secrets.GH_STATS_TOKEN }}" \
-            "https://github-readme-stats.vercel.app/api?username=AlysonTrizotto&show_icons=true&theme=radical&count_private=true" \
-            -o stats.svg
-          curl -H "Authorization: token ${{ secrets.GH_STATS_TOKEN }}" \
-            "https://github-readme-stats.vercel.app/api/top-langs/?username=AlysonTrizotto&layout=compact&theme=radical&count_private=true" \
-            -o langs.svg
+          curl "https://github-readme-stats.vercel.app/api?username=AlysonTrizotto&show_icons=true&theme=radical&count_private=true&token=${{ secrets.GH_STATS_TOKEN }}" -o stats.svg
+          curl "https://github-readme-stats.vercel.app/api/top-langs/?username=AlysonTrizotto&layout=compact&theme=radical&count_private=true&token=${{ secrets.GH_STATS_TOKEN }}" -o langs.svg
 
       - name: Commit e push das imagens
         run: |
