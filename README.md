@@ -1,8 +1,3 @@
-<!-- Banner fictício (substitua pela sua imagem se quiser) -->
-<p align="center">
-  <img src="https://i.imgur.com/8Km9tLL.png" width="120" alt="Avatar Alyson"/>
-</p>
-
 # Olá, sou Alyson Trizotto 👋
 
 ## Sobre mim
@@ -14,7 +9,6 @@ Sou desenvolvedor com experiência em **Back-end e RPA**. Adoro trabalhar com **
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=AlysonTrizotto&show_icons=true&theme=radical"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AlysonTrizotto&layout=compact&theme=radical"/>
-  <img src="https://streak-stats.demolab.com/?user=AlysonTrizotto&theme=radical"/>
 </p>
 
 ---
