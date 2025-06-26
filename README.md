@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=00DBDE&center=true&vCenter=true&width=600&lines=Desenvolvedor+Back-end+Pleno;Especialista+em+APIs+e+Microservi%C3%A7os;Apaixonado+por+inova%C3%A7%C3%A3o+e+tecnologia"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=00DBDE&center=true&vCenter=true&width=600&lines=Desenvolvedor+Back-end;Especialista+em+APIs+e+Microservi%C3%A7os;Apaixonado+por+inova%C3%A7%C3%A3o+e+tecnologia"/>
 </p>
 
 ---
@@ -24,7 +24,7 @@ Sou Desenvolvedor Pleno com sólida experiência em back-end, especialista em PH
 ## 🏆 Destaques Profissionais
 - Desenvolvimento e manutenção de microserviços robustos (omnichannel, serviços bancários, autenticação)
 - Construção de back-end omnichannel integrando WhatsApp, e-mail, mobile, web e automações internas
-- Reescrita de aplicação bancária: de 400 para 1900 guias/hora
+- Construção de aplicação bancária
 - Desenvolvimento de IA para reconhecimento de placas veiculares e caracteres
 - Participação ativa em todas as etapas do ciclo de desenvolvimento
 - Experiência em treinamento, mentoring e liderança técnica de equipes
