@@ -2,8 +2,11 @@ name: Atualizar GitHub Stats
 
 on:
   schedule:
-    - cron: '0 */6 * * *' # Atualiza a cada 6 horas
+    - cron: '0 */6 * * *'
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build:
