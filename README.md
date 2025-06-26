@@ -40,11 +40,14 @@ Sou Desenvolvedor Pleno com sólida experiência em back-end, especialista em PH
 ---
 
 ## 📊 Estatísticas do GitHub
-<p align="center">
+<!-- <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=AlysonTrizotto&show_icons=true&theme=radical"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AlysonTrizotto&layout=compact&theme=radical"/>
+</p> -->
+<p align="center">
+  <img src="./stats.svg"/>
+  <img src="./langs.svg"/>
 </p>
-
 ---
 
 ## 📫 Contato
