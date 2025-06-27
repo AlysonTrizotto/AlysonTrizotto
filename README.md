@@ -10,7 +10,7 @@
 ---
 
 ## 👨‍💻 Sobre mim
-Sou Desenvolvedor Pleno com sólida experiência em back-end, especialista em PHP, Laravel e bancos de dados relacionais. Tenho profundo conhecimento em construção de APIs REST, microserviços, testes unitários e integração contínua com Git e Docker. Atuo desde a arquitetura até a implantação, sempre buscando inovação e excelência técnica.
+Sou Desenvolvedor com sólida experiência em back-end, especialista em PHP, Laravel e bancos de dados relacionais. Tenho profundo conhecimento em construção de APIs REST, microserviços, testes unitários e integração contínua com Git e Docker. Atuo desde a arquitetura até a implantação, sempre buscando inovação e excelência técnica.
 
 ---
 
@@ -18,6 +18,14 @@ Sou Desenvolvedor Pleno com sólida experiência em back-end, especialista em PH
 <p align="center">
   <img src="https://skillicons.dev/icons?i=php,laravel,mysql,postgres,oracle,js,docker,git,github,bash,linux"/>
 </p>
+
+- Hooks e eventos (Laravel, Node.js)
+- Gateways de pagamento e APIs externas
+- Sockets e comunicação em tempo real
+- Notificações (e-mail, push, SMS, WhatsApp)
+- Persistência em cloud (AWS, Azure, GCP)
+- Pipelines e esteira de CI/CD
+- Testes automatizados e integração contínua
 
 ---
 
