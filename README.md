@@ -12,11 +12,15 @@
 ## 👨‍💻 Sobre mim
 Sou Desenvolvedor com sólida experiência em back-end, especialista em PHP, Laravel e bancos de dados relacionais. Tenho profundo conhecimento em construção de APIs REST, microserviços, testes unitários e integração contínua com Git e Docker. Atuo desde a arquitetura até a implantação, sempre buscando inovação e excelência técnica.
 
+Experiência avançada no consumo de APIs bancárias (Banco do Brasil, Mercado Pago) e processamento massivo de pagamentos, incluindo automação de geração e liquidação de boletos bancários. Atuação em projetos de telemetria veicular, integração com atuadores e sistemas embarcados para monitoramento e controle remoto de frotas.
+
+Forte domínio em arquitetura de sistemas escaláveis, integração de serviços, mensageria, observabilidade, pipelines CI/CD e persistência em cloud.
+
 ---
 
 ## 🚀 Principais Skills
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=php,laravel,mysql,postgres,oracle,js,docker,git,github,bash,linux"/>
+  <img src="https://skillicons.dev/icons?i=php,laravel,nodejs,js,ts,docker,git,github,bash,linux,aws,azure,gcp,postgres,mysql,oracle,redis,graphql,nginx,vercel,figma,pytest,mocha,socketio,jenkins,githubactions"/>
 </p>
 
 - Hooks e eventos (Laravel, Node.js)
