@@ -20,7 +20,7 @@ Forte domínio em arquitetura de sistemas escaláveis, integração de serviços
 
 ## 🚀 Principais Skills
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=php,laravel,nodejs,js,ts,docker,git,github,bash,linux,aws,azure,gcp,postgres,mysql,oracle,redis,graphql,nginx,vercel,figma,pytest,mocha,socketio,jenkins,githubactions"/>
+  <img src="https://skillicons.dev/icons?i=php,laravel,nodejs,js,ts,docker,git,github,bash,linux,aws,azure,gcp,postgres,mysql,oracle,redis,graphql,nginx,vercel,socketio,jenkins,githubactions"/>
 </p>
 
 - Hooks e eventos (Laravel, Node.js)
