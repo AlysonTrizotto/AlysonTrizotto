@@ -73,52 +73,9 @@ O [laravel-ddl-crud](https://github.com/AlysonTrizotto/laravel-ddl-crud) é uma 
 - Manipulação de esquemas de banco de dados sem necessidade de migrações manuais.
 - Testes automatizados com PHPUnit para garantir a integridade das operações.
 
-**Exemplo de uso:**
-```sql
-
-CREATE TABLE customers (
-    id         BIGSERIAL PRIMARY KEY,
-    name       VARCHAR(255)  NOT NULL,
-    email      CITEXT        NOT NULL UNIQUE,
-    created_at TIMESTAMPTZ   NOT NULL DEFAULT NOW(),
-    updated_at TIMESTAMPTZ   NOT NULL DEFAULT NOW(),
-    deleted_at TIMESTAMPTZ   NULL,
-    UNIQUE (email)
-);
-
-CREATE INDEX idx_customers_email ON customers (email);
-
-CREATE TABLE customer_favorites (
-    id          BIGSERIAL PRIMARY KEY,
-    customer_id BIGINT NOT NULL REFERENCES customers(id) ON DELETE CASCADE,
-    product_id  BIGINT NOT NULL, -- ID externo do produto (FakeStore)
-    created_at  TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-    updated_at  TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-    deleted_at  TIMESTAMPTZ NULL,
-    UNIQUE (customer_id, product_id)
-);
-
-CREATE INDEX idx_customer_favorites_customer ON customer_favorites (customer_id);
-CREATE INDEX idx_customer_favorites_product  ON customer_favorites (product_id);
-
-create table users (
-    id int primary key auto_increment,
-    name varchar(255) not null,
-    email varchar(255) not null unique,
-    password varchar(255) not null,
-    created_at timestamp default current_timestamp,
-    updated_at timestamp default current_timestamp on update current_timestamp,
-    deleted_at timestamp default null on delete current_timestamp
-);
-
-create index idx_email_password on users (email, password);
-
-
-```
-
 **Tecnologias utilizadas:**
 - Laravel 12+
-- PHP 8.2+
+- PHP 8.3+
 - PHPUnit
 
 **Status:** Em desenvolvimento ativo.  
