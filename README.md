@@ -60,7 +60,73 @@ Forte domínio em arquitetura de sistemas escaláveis, integração de serviços
   <img src="./stats.svg"/>
   <img src="./langs.svg"/>
 </p>
----
+
+
+
+## 🚀 Biblioteca em Desenvolvimento: laravel-ddl-crud
+
+O [laravel-ddl-crud](https://github.com/AlysonTrizotto/laravel-ddl-crud) é uma biblioteca para Laravel que permite criar, alterar e excluir tabelas e campos do banco de dados via código, além de gerar automaticamente rotas, controllers e views para operações CRUD. Ideal para aplicações que precisam de flexibilidade na estrutura dos dados em tempo de execução.
+
+**Principais recursos:**
+- Criação dinâmica de tabelas e campos usando DDL (Data Definition Language).
+- Geração automática de CRUD completo (rotas, controllers, views) a partir das definições das tabelas.
+- Manipulação de esquemas de banco de dados sem necessidade de migrações manuais.
+- Testes automatizados com PHPUnit para garantir a integridade das operações.
+
+**Exemplo de uso:**
+```sql
+
+CREATE TABLE customers (
+    id         BIGSERIAL PRIMARY KEY,
+    name       VARCHAR(255)  NOT NULL,
+    email      CITEXT        NOT NULL UNIQUE,
+    created_at TIMESTAMPTZ   NOT NULL DEFAULT NOW(),
+    updated_at TIMESTAMPTZ   NOT NULL DEFAULT NOW(),
+    deleted_at TIMESTAMPTZ   NULL,
+    UNIQUE (email)
+);
+
+CREATE INDEX idx_customers_email ON customers (email);
+
+CREATE TABLE customer_favorites (
+    id          BIGSERIAL PRIMARY KEY,
+    customer_id BIGINT NOT NULL REFERENCES customers(id) ON DELETE CASCADE,
+    product_id  BIGINT NOT NULL, -- ID externo do produto (FakeStore)
+    created_at  TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+    updated_at  TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+    deleted_at  TIMESTAMPTZ NULL,
+    UNIQUE (customer_id, product_id)
+);
+
+CREATE INDEX idx_customer_favorites_customer ON customer_favorites (customer_id);
+CREATE INDEX idx_customer_favorites_product  ON customer_favorites (product_id);
+
+create table users (
+    id int primary key auto_increment,
+    name varchar(255) not null,
+    email varchar(255) not null unique,
+    password varchar(255) not null,
+    created_at timestamp default current_timestamp,
+    updated_at timestamp default current_timestamp on update current_timestamp,
+    deleted_at timestamp default null on delete current_timestamp
+);
+
+create index idx_email_password on users (email, password);
+
+
+```
+
+**Tecnologias utilizadas:**
+- Laravel 12+
+- PHP 8.2+
+- PHPUnit
+
+**Status:** Em desenvolvimento ativo.  
+**Colabore:** Sugestões, issues e pull requests são bem-vindos!
+
+Mais detalhes e documentação completa no repositório:  
+👉 [github.com/AlysonTrizotto/laravel-ddl-crud](https://github.com/AlysonTrizotto/laravel-ddl-crud)
+
 
 ## 📫 Contato
 <p align="center">
