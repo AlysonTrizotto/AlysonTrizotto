@@ -63,25 +63,8 @@ Forte domínio em arquitetura de sistemas escaláveis, integração de serviços
 
 
 
-## 🚀 Biblioteca em Desenvolvimento: laravel-ddl-crud
-
-O [laravel-ddl-crud](https://github.com/AlysonTrizotto/laravel-ddl-crud) é uma biblioteca para Laravel que permite criar, alterar e excluir tabelas e campos do banco de dados via código, além de gerar automaticamente rotas, controllers e views para operações CRUD. Ideal para aplicações que precisam de flexibilidade na estrutura dos dados em tempo de execução.
-
-**Principais recursos:**
-- Criação dinâmica de tabelas e campos usando DDL (Data Definition Language).
-- Geração automática de CRUD completo (rotas, controllers, views) a partir das definições das tabelas.
-- Manipulação de esquemas de banco de dados sem necessidade de migrações manuais.
-- Testes automatizados com PHPUnit para garantir a integridade das operações.
-
-**Tecnologias utilizadas:**
-- Laravel 12+
-- PHP 8.3+
-- PHPUnit
-
-**Status:** Em desenvolvimento ativo.  
-**Colabore:** Sugestões, issues e pull requests são bem-vindos!
-
-Mais detalhes e documentação completa no repositório:  
+## 🚀 Biblioteca/Plugins: laravel-ddl-crud
+👉 [github.com/AlysonTrizotto/laravel-ddl-crud](https://github.com/AlysonTrizotto/laravel-ddl-crud)
 👉 [github.com/AlysonTrizotto/laravel-ddl-crud](https://github.com/AlysonTrizotto/laravel-ddl-crud)
 
 
