@@ -64,7 +64,9 @@ Forte domínio em arquitetura de sistemas escaláveis, integração de serviços
 
 
 ## 🚀 Biblioteca/Plugins: laravel-ddl-crud
+
 👉 [github.com/AlysonTrizotto/laravel-ddl-crud](https://github.com/AlysonTrizotto/laravel-ddl-crud)
+
 👉 [github.com/AlysonTrizotto/laravel-ddl-crud](https://github.com/AlysonTrizotto/laravel-ddl-crud)
 
 
