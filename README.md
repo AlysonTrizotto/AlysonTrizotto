@@ -30,6 +30,7 @@ Forte domínio em arquitetura de sistemas escaláveis, integração de serviços
 - Persistência em cloud (AWS, Magalu Clound, GCP)
 - Pipelines e esteira de CI/CD
 - Testes automatizados e integração contínua
+- Mensageria (Kafka, RabbitMq)
 
 ---
 
