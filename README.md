@@ -1,6 +1,6 @@
 # 👋 Olá, eu sou Alyson Trizotto
 
-**Desenvolvedor Back-end Senior** | Laravel + Ruby on Rails + IA  
+**Desenvolvedor Back-end** | Laravel + Ruby on Rails + IA  
 Especialista em Arquitetura de Microserviços, Performance Crítica e Visão Computacional  
 
 ---
@@ -19,7 +19,6 @@ Especialista em Arquitetura de Microserviços, Performance Crítica e Visão Com
 - Arquitetura DDD + Clean Architecture em produção
 - Performance extrema (Laravel Octane + FrankenPHP)
 - IA aplicada (YOLOv11 + SAHI + ByteTrack)
-- Mentor e liderança técnica de equipes
 
 ---
 
