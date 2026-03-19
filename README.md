@@ -51,7 +51,6 @@ React 19 • Inertia.js • TypeScript
 - **E-mail:** alysontrizotto1@gmail.com
 - **Portfólio:** [alysontrizotto.vercel.app](https://alysontrizotto.vercel.app/)
 
-**#OpenToWork** – Buscando novas oportunidades como **Senior Back-end** ou **Tech Lead** (Laravel / Rails / IA).
 
 ---
 
