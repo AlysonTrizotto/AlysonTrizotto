@@ -40,8 +40,10 @@ React 19 • Inertia.js • TypeScript
 
 ## 📊 Estatísticas do GitHub
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=AlysonTrizotto&show_icons=true&theme=dracula)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=AlysonTrizotto&layout=compact&theme=dracula)
+<p align="center">
+  <img src="./stats.svg"/>
+  <img src="./langs.svg"/>
+</p>
 
 ---
 
