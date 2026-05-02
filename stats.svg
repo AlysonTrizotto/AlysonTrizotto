@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Alyson Trizotto's GitHub Stats, Rank: B+</title>
-        <desc id="descId">Total Stars Earned: 4, Total Commits in 2026 : 3301, Total PRs: 252, Total Issues: 21, Contributed to (last year): 4</desc>
+        <desc id="descId">Total Stars Earned: 4, Total Commits in 2026 : 3308, Total PRs: 253, Total Issues: 21, Contributed to (last year): 4</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 102.20776724218304;
+        stroke-dashoffset: 102.18138909004868;
       }
     }
   
@@ -192,7 +192,7 @@
         x="219.01"
         y="12.5"
         data-testid="prs"
-      >252</text>
+      >253</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
