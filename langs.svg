@@ -130,7 +130,7 @@
           data-testid="lang-progress"
           x="0"
           y="0"
-          width="100.73"
+          width="100.77"
           height="8"
           fill="#4F5D95"
         />
@@ -138,9 +138,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="100.73"
+          x="100.77"
           y="0"
-          width="90.97"
+          width="90.95"
           height="8"
           fill="#3178c6"
         />
@@ -148,9 +148,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="191.7"
+          x="191.72"
           y="0"
-          width="31.3"
+          width="31.29"
           height="8"
           fill="#e34c26"
         />
@@ -158,9 +158,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="223"
+          x="223.01"
           y="0"
-          width="10.89"
+          width="10.88"
           height="8"
           fill="#f7523f"
         />
@@ -170,7 +170,7 @@
           data-testid="lang-progress"
           x="233.89"
           y="0"
-          width="18.96"
+          width="18.95"
           height="8"
           fill="#41b883"
         />
@@ -178,9 +178,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="242.85"
+          x="242.83999999999997"
           y="0"
-          width="17.16"
+          width="17.15"
           height="8"
           fill="#3572A5"
         />
@@ -191,14 +191,14 @@
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#4F5D95" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        PHP 40.29%
+        PHP 40.31%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms">
       <circle cx="5" cy="6" r="5" fill="#3178c6" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        TypeScript 36.39%
+        TypeScript 36.38%
       </text>
     </g>
   </g><g transform="translate(0, 50)">
