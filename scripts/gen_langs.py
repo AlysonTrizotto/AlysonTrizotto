@@ -30,7 +30,8 @@ log = logging.getLogger("gen_langs")
 
 
 def get(url: str, token: str | None) -> tuple[object, str]:
-    req = urllib.request.Request(url, headers={"Accept": "application/vnd.github+json"})
+    # Accept específico só para a API do GitHub; Packagist/Open VSX respondem 406 a ele
+    req = urllib.request.Request(url, headers={"Accept": "application/vnd.github+json" if url.startswith(API) else "application/json"})
     if token:
         req.add_header("Authorization", f"Bearer {token}")
     with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
