@@ -18,7 +18,13 @@ jobs:
       - name: Baixar estatísticas privadas
         run: |
           curl "https://github-readme-stats-seven-pearl-33.vercel.app/api?username=AlysonTrizotto&show_icons=true&theme=radical&count_private=true" -o stats.svg
-          curl "https://github-readme-stats-seven-pearl-33.vercel.app/api/top-langs/?username=AlysonTrizotto&layout=compact&theme=radical&count_private=true" -o langs.svg
+
+      - name: Gerar card de linguagens (bytes)
+        env:
+          GH_USER: AlysonTrizotto
+          # PAT fine-grained (Contents: read) para incluir repos privados; sem ele, só públicos
+          GH_TOKEN: ${{ secrets.STATS_TOKEN }}
+        run: python3 scripts/gen_langs.py
 
       - name: Commit e push das imagens
         run: |
