@@ -1,4 +1,4 @@
-"""Gera langs.svg: linguagens por bytes agregados nos repos do usuário (API de linguagens do GitHub).
+"""Gera langs.svg e langs.json: linguagens por bytes agregados nos repos do usuário (API de linguagens do GitHub).
 
 Env: GH_USER (obrigatória), GH_TOKEN (opcional; sem ela só repos públicos).
 Bytes vêm do linguist do GitHub, que já ignora vendor/lockfiles/generated.
@@ -10,6 +10,7 @@ import re
 import sys
 import urllib.request
 from collections import Counter
+from datetime import datetime, timezone
 from html import escape
 
 API = "https://api.github.com"
@@ -102,6 +103,11 @@ def main() -> None:
     stars = sum(r["stargazers_count"] for r in repos)
     with open("langs.svg", "w", encoding="utf-8") as f:
         f.write(render(total, len(repos), stars))
+    # consumido pelo portfólio (fetch do raw.githubusercontent.com); só números agregados, sem nomes de repo
+    with open("langs.json", "w", encoding="utf-8") as f:
+        json.dump({"updated": datetime.now(timezone.utc).isoformat(timespec="seconds"), "repos": len(repos),
+                   "stars": stars, "total": sum(total.values()),
+                   "languages": [{"name": n, "bytes": b} for n, b in total.most_common()]}, f)
     log.info("done repos=%d languages=%d", len(repos), len(total))
 
 
