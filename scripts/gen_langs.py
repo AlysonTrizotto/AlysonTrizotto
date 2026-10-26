@@ -47,7 +47,11 @@ def list_repos(user: str, token: str | None) -> list[dict]:
         repos += page
         m = re.search(r'<([^>]+)>;\s*rel="next"', link)
         url = m.group(1) if m else ""
-    return [r for r in repos if not r["fork"]]
+    own = [r for r in repos if not r["fork"]]
+    # diagnóstico: token ausente/limitado aparece aqui como poucos repos e zero privados
+    log.info("repos_listed token=%s total=%d forks=%d private=%d kept=%d", bool(token), len(repos),
+             len(repos) - len(own), sum(r["private"] for r in own), len(own))
+    return own
 
 
 def aggregate(repos: list[dict], token: str | None) -> Counter:
