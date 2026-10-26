@@ -1,59 +1,40 @@
-# 👋 Olá, eu sou Alyson Trizotto
+<div align="center">
 
-**Desenvolvedor Back-end** | Laravel + Ruby on Rails + IA  
-Especialista em Arquitetura de Microserviços, Performance Crítica e Visão Computacional  
+<img src="./assets/banner.svg" alt="Alyson Trizotto — Back-end Engineer" width="100%"/>
 
----
+**Back-end com foco em performance, IA e sistemas de alta escala.**
+Laravel · Ruby on Rails · FastAPI · Visão Computacional
 
-## 🚀 Destaques Profissionais
+[portfólio](https://alysontrizotto.vercel.app) · [linkedin](https://www.linkedin.com/in/alyson-trizotto/) · [e-mail](mailto:alysontrizotto1@gmail.com)
 
-- **Impact Cases** – Meus projetos mais relevantes (todos com código, métricas e lições aprendidas):
-  - [Motor de Busca Crítico](https://github.com/AlysonTrizotto/impact-cases/tree/main/cases/motor-busca-otimizacao-2026) → -73% latência em produção
-  - [laravel-ddl-crud](https://github.com/AlysonTrizotto/laravel-ddl-crud) → Pacote Composer usado em +10 projetos
-  - [YOLO OCR de Placas](https://github.com/AlysonTrizotto/impact-cases/tree/main/cases/yolo-ocr-placas-veiculares) → Em produção na Ofisys
-  - [Benchmark de Frameworks](https://github.com/AlysonTrizotto/benchmark) → Comparação real de 6 stacks em alta carga
-  - [Tese de Mestrado – Inspeção Veicular Universal](https://github.com/AlysonTrizotto/impact-cases/tree/main/cases/tese-inspecao-veicular-universal-2026)
+<img src="./metrics.svg" alt="Métricas: -73% latência, -47% memória, downloads" width="100%"/>
 
-  → Veja todos os cases aqui: **[impact-cases](https://github.com/AlysonTrizotto/impact-cases)**
-
-- Arquitetura DDD + Clean Architecture em produção
-- Performance extrema (Laravel Octane + FrankenPHP)
-- IA aplicada (YOLOv11 + SAHI + ByteTrack)
+</div>
 
 ---
 
-## 🛠️ Tecnologias Principais
+## `// cases`
 
-**Backend**  
-Laravel 12 • Ruby on Rails • PHP • Python • FastAPI • Node.js
+| Case | Resultado |
+| --- | --- |
+| [Motor de Busca Crítico](https://github.com/AlysonTrizotto/impact-cases/tree/main/cases/motor-busca-otimizacao-2026) | −73% de latência em produção (10,63s → 2,87s), RAM −47% |
+| [laravel-ddl-crud](https://github.com/AlysonTrizotto/laravel-ddl-crud) | Pacote Composer: CRUD completo a partir de DDL SQL |
+| [YOLO OCR de Placas](https://github.com/AlysonTrizotto/impact-cases/tree/main/cases/yolo-ocr-placas-veiculares) | YOLOv11 + TensorRT em produção na Ofisys |
+| [Benchmark de Frameworks](https://github.com/AlysonTrizotto/benchmark) | 6 stacks comparadas em I/O real |
+| [Inspeção Veicular Universal](https://github.com/AlysonTrizotto/impact-cases/tree/main/cases/tese-inspecao-veicular-universal-2026) | Tese de mestrado: YOLOv11 + SAHI + ByteTrack |
+| [Staff+ Skills](https://github.com/AlysonTrizotto/skills) | 16 skills de governança para agentes de IA |
 
-**Performance & Infra**  
-Octane • FrankenPHP • Docker • Redis • Kafka • CI/CD • TensorRT
+Todos em [impact-cases](https://github.com/AlysonTrizotto/impact-cases), com código, métricas e lições aprendidas.
 
-**IA & Visão Computacional**  
-YOLOv11 • SAHI • ByteTrack • PyTorch
+## `// stack`
 
-**Frontend**  
-React 19 • Inertia.js • TypeScript
+`PHP` `Laravel` `Hyperf` `Ruby on Rails` `Python` `FastAPI` `Node` · `PostgreSQL` `Redis` `Kafka` · `Docker` `Datadog` `TensorRT` · `YOLOv11` `PyTorch`
 
----
-
-## 📊 Estatísticas do GitHub
+## `// código em números`
 
 <p align="center">
-  <img src="./stats.svg"/>
-  <img src="./langs.svg"/>
+  <img src="./langs.svg" alt="Linguagens por bytes" width="49%"/>
+  <img src="./stats.svg" alt="Estatísticas do GitHub" width="49%"/>
 </p>
 
----
-
-## 📫 Vamos conversar?
-
-- **LinkedIn:** [linkedin.com/in/alyson-trizotto](https://www.linkedin.com/in/alyson-trizotto/)
-- **E-mail:** alysontrizotto1@gmail.com
-- **Portfólio:** [alysontrizotto.vercel.app](https://alysontrizotto.vercel.app/)
-
-
----
-
-*Última atualização: Março 2026*
+<sub>Atualizado automaticamente a cada 6h por GitHub Actions. Linguagens em bytes (API do GitHub), repos próprios, sem forks.</sub>
