@@ -30,7 +30,8 @@ log = logging.getLogger("gen_langs")
 
 
 def get(url: str, token: str | None) -> tuple[object, str]:
-    req = urllib.request.Request(url, headers={"Accept": "application/vnd.github+json"})
+    # Accept do GitHub só para a API do GitHub; Packagist/Open VSX respondem 406 a ele
+    req = urllib.request.Request(url, headers={"Accept": "application/vnd.github+json"} if url.startswith(API) else {})
     if token:
         req.add_header("Authorization", f"Bearer {token}")
     with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
@@ -46,7 +47,11 @@ def list_repos(user: str, token: str | None) -> list[dict]:
         repos += page
         m = re.search(r'<([^>]+)>;\s*rel="next"', link)
         url = m.group(1) if m else ""
-    return [r for r in repos if not r["fork"]]
+    own = [r for r in repos if not r["fork"]]
+    # diagnóstico: token ausente/limitado aparece aqui como poucos repos e zero privados
+    log.info("repos_listed token=%s total=%d forks=%d private=%d kept=%d", bool(token), len(repos),
+             len(repos) - len(own), sum(r["private"] for r in own), len(own))
+    return own
 
 
 def aggregate(repos: list[dict], token: str | None) -> Counter:
